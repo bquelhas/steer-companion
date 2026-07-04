@@ -2,7 +2,7 @@
 
 Steer's phone half. It reads turn-by-turn navigation from your map app's
 notifications and forwards each maneuver to a **Pebble** watch running the
-[Steer watchapp](https://github.com/YOUR_GITHUB_USER/steer): next-turn icon,
+[Steer watchapp](https://github.com/bquelhas/steer): next-turn icon,
 distance, street/instruction, ETA, current speed and an over-limit alert. It
 can also launch navigation to a favourite straight from the watch.
 
@@ -77,7 +77,7 @@ watch project as a **sibling checkout**:
 ```
 
 Adjust that path in `app/build.gradle.kts` to wherever you cloned the
-[watch repo](https://github.com/YOUR_GITHUB_USER/steer), run `pebble build`
+[watch repo](https://github.com/bquelhas/steer), run `pebble build`
 there, then rebuild the APK. If the `.pbw` is absent the task is skipped and
 the "install watchapp" button simply reports it's not bundled — the phone app
 still builds and runs.
