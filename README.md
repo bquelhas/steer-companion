@@ -1,5 +1,11 @@
 # Steer — Android companion app
 
+> [!IMPORTANT]
+> **This project has moved.** The Android companion now lives in the
+> **Pebble Steer** monorepo alongside the watchapp:
+> **https://github.com/bquelhas/steer** (`android/` directory).
+> This standalone repository is kept only for history and is no longer updated.
+
 Steer's phone half. It reads turn-by-turn navigation from your map app's
 notifications and forwards each maneuver to a **Pebble** watch running the
 [Steer watchapp](https://github.com/bquelhas/steer): next-turn icon,
